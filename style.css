@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/*
+    Header & Nav
+*/
+nav {
+    background-color: #85C4FF;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* Must alphabetize CSS */
+
+#box-model {
+    background: #CFF1CA;
+    /* height: 680px; */
+    padding: 40px;
+}
+
+.inner-box-model {
+    background: #94F884;
+    border: 10px solid #31B71B;
+    padding: 40px;
+    height: 595px;
+    max-width: 1280px; 
+    margin: 0 auto;
+}
+
+.inner-box-model-text-heading {
+    font-size: 32px;
+}
+
+.inner-box-model-text-under {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* 
+    Flexbox Section
+*/
+
+.flexbox-section {
+    background-color: #F1D3CA;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flexbox-top {
+    width: 100%;
+    border: 10px solid #7D260B;
+    box-sizing: border-box;
+    background-color: #FF9371;
+    padding: 40px;
+}
+
+.flexbox-title {
+    max-width: 825px;
+    border: 10px solid #DD4414;
+    background-color: #FFECE5;
+    margin: 0 auto;
+    height: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.flexbox-left {
+    height: 400px;
+    width: 50%;
+    border: 10px solid #7D260B;
+    background-color: #FF9371;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flexbox-left > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #FFECE5;
+    width: 30%;
+    border: 10px solid #DD4414;
+    box-sizing: border-box;
+}
+
+.flexbox-right {
+    height: 400px;
+    width: 50%;
+    border: 10px solid #7D260B;
+    background-color: #FF9371;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flexbox-right > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    background-color: #FFECE5;
+    width: 100%;
+    border: 10px solid #DD4414;
+    box-sizing: border-box;
+}
+
+#pos-elements {
+    background-color: #CAD7F1;
+    padding: 40px;
+}
+
+.pos-wrapper {
+    width: 100%;
+    height: 656px;
+    background-color: #85C4FF;
+    border: 10px solid #0E3F9E;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pos-title {
+    font-size: 50px;
+    font-weight: 700;
+    width: 20px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.circle {
+    width: 218px;
+    aspect-ratio: 1 / 1;
+    background-color: #4480F4;
+    border: 10px solid #0E3F9E;
+    border-radius: 50%;
+}
+
+.circle-1 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.circle-2 {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.circle-3 {
+    position: absolute;
+    right: 250px;
+    top: 250px;
+}
+
+.square {
+    width: 218px;
+    aspect-ratio: 1 / 1;
+    background-color: #4480F4;
+    border: 10px solid #0E3F9E;
+}
+
+.square-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square-2 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+#heading-usage {
+    padding: 40px 40px 60px 40px;
+    background-color: #F1CAF0;
+    color: #6C0468;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.h-1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.h-2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.h-4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.h-5 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.simple-javascript {
+    background-color: #FAEFD3;
+    padding: 40px;
+}
+
+.js-inner {
+    border: 10px solid #644904;
+    height: 347px;
+    padding: 20px;
+    color: #644904;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.js-action {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.js-button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px 20px 40px;
+    border: 1px solid #79756C;
+    background-color: #CDC5B1;
+    cursor: pointer;
+}
+
+footer {
+    height: 80px;
+    background-color: #FFC3C3;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}

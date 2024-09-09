@@ -2,10 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul class="header-list">
+                <li><a href="#box-model">Box Model</a></li>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#positioning-elements">Positioning Elements</a></li>
+                <li><a href="#heading-usage">Heading Usage</a></li>
+                <li><a href="#simple-javascript">Simple Javascript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="box-model">
+            <div class="inner-box-model">
+                <p style="font-size: 64px; margin: 0; font-weight: 600;">CSS Box Model</p>
+                <br>
+                <p class="inner-box-model-text-heading">/* Padding is inside of the element in CSS */</p>
+                <p class="inner-box-model-text-under">padding: 40px;</p>
+                <p class="inner-box-model-text-heading">/* Margin is outside of the element in CSS */</p>
+                <p class="inner-box-model-text-under">margin: 40px; (outside)</p>
+                <p class="inner-box-model-text-heading">/* Border is added to width and height of element in CSS */</p>
+                <p class="inner-box-model-text-under">border: 10px solid green;</p>
+            </div>
+        </section>
+        <section id="flexbox" class="flexbox-section">
+            <div class="flexbox-top">
+                <div class="flexbox-title">
+                    <h2>Display: Flex</h2>
+                </div>
+            </div>
+            <div class="flexbox-bottom">
+                <div class="flexbox-left">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="flexbox-right">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <section id="positioning-elements">
+            <div class="pos-wrapper">
+                <p class="pos-title">Positioning Elements</p>
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+                <div class="square square-1"></div>
+                <div class="square square-2"></div>
+            </div>
+        </section>
+        <section id="heading-usage">
+            <h1 class="h-1">Proper Heading Usage (h1)</h1>
+            <p class="h-2">A heading describes the content below it (h2)</p>
+            <h3 class="h-1">Style of the text is not relevant (h3)</h3>
+            <p class="h-4">
+                Here is a paragraph about why text-size 
+                does not affect the order of the headings. 
+                We want to consider the heirarchy of the 
+                information and not the styling for 
+                determining which tag we choose. (p)
+                <br>
+                <br>
+            </p>
+            <h4 class="h-5">This could be another heading about text size (h4)</h4>
+            <p>
+                And you could put another paragraph (or two, or three...) under this 
+                further describing this concept. (p)
+            </p>
+        </section>
+        <section class="simple-javascript">
+            <div class="js-inner">
+                <p>Simple JavaScript</p>
+                <div class="js-action">
+                    <p class="js-counter">0</p>
+                    <button class="js-button">Click to increase</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Henry Osterweis - Fall, 2024</p>
+        </footer>
+    </main>
+    <script src="script.js" defer></script>
 </body>
 </html>
